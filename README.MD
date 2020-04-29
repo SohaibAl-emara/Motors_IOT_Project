@@ -3,7 +3,7 @@ This is a IOT node that can monitor the vibration and temperature of an industri
 The goal of these nodes is to monitor the motors, and collect data about the motors to preform different thorough researches. 
 
 ## Data Flow
-[image](./images/diagram.png)
+![image](./images/diagram.png)
 <br/>
 To communicate between the nodes and the master server the MQTT publish-subscribe network protocol is used to transports messages between nodes and the master.
 Once the data is received on the master, the master filters the data, and send it out to the Dashboard for monitoring, and the database to record the data. 
@@ -21,12 +21,12 @@ Which is used to filter the data and forward it to the dashboard and the databas
 ### Front-end server
 The UI dashboard can be hosted on any virtual vm that run linux operating system. For security reasons, the dashboard has been deployed on a local server that can be accessed using a VPN. The dashboard is the community version of the ThingsBoard - Open-source IoT Platform. 
 <br/>
-[image](./images/thingsboard.png)
+![image](./images/thingsboard.png)
 
 ## Hardware 
 
 ### Interfacing Diagram
-[image](./images/nodemcu.png)
+![image](./images/nodemcu.png)
 
 
 Software
